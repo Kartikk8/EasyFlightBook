@@ -1,6 +1,6 @@
-# EasyBooking
+# EasyBookingFlight
 Group 15 
-Don't Delete
+This file contains all the functionalities that we used in EasyBookingFlights website, All the functions are interconnected.
 
 # TODO
 
