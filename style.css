@@ -1,0 +1,224 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* div top-bar */
+.top-bar {
+  background:  #B3B300;
+  height: 2.8rem;
+  padding: .5rem 0;
+  color:black;
+
+}
+/* end div top-bar */
+
+/* sign-up.html CSS */
+.sign-up-header
+{
+	height: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(background.jpg);
+	background-size: cover;
+	background-position: left;
+	background-attachment: fixed;
+	padding-bottom: 100%;
+	text-align: center;
+	color: #fff;
+}
+
+.sign-up-header img
+{   
+	width: 100px;
+	float: left;
+}
+
+/* end sign-up.html CSS */
+
+/* sign-in.html CSS */
+.sign-in-header
+{
+	height: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(background.jpg);
+	background-size: cover;
+	background-position: left;
+	background-attachment: fixed;
+	padding-bottom: 100%;
+	text-align: center;
+	color: #fff;
+}
+
+.sign-in-header img
+{   
+	width: 100px;
+	float: left;
+}
+
+
+
+/* end sign-in.html CSS */
+
+.header
+{
+	height: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(logo.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding-bottom: 200px;
+	text-align: center;
+	color: #fff;
+}
+
+.header img
+{   
+	width: 100px;
+	float: left;
+}
+
+.login-btn
+{
+	width: 80px;
+	padding: 2px;
+	outline: none !important;
+	border: 2px solid #fff;
+	border-radius: 200px;
+	background: transparent;
+	color: floralwhite;
+	float: right;
+}
+.signup-btn
+{
+	width: 80px;
+	padding: 2px;
+	outline: none !important;
+	border: 2px solid #fff;
+	border-radius: 200px;
+	background: transparent;
+	color: floralwhite;
+	float: right; 
+}
+
+.input-group
+{
+	width: 90%;
+	max-width: 300px;
+	border-radius: 50px;
+	background: transparent;
+	color: floralwhite;
+	float: right;
+}
+
+.input-group-text 
+{
+	width: 70px;
+	background-image: linear-gradient(floralwhite);
+	border: 0 !important;
+	color: #1B3774;
+	padding: 5 25px;
+	border-radius: 1 25px;
+}
+.header h3
+{
+	padding-top: 200px;
+	font-size: 55px;
+}
+.topnav 
+{
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a 
+{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover 
+{
+  background-color: cadetblue;
+  color: black;
+}
+.topnav a.active 
+{
+  background-color: cadetblue;
+  color: white;
+}
+.banner
+{
+	height: 80%;
+	background-image: url(images/img2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 10%;
+}
+.banner-highlights
+{
+	padding: 70px 0;
+	background: rgba(0,0,0,0.7);
+	text-align: center;
+	color: white;
+}
+.footer
+{
+	height: 40%;
+	background-color: antiquewhite;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 5%; 
+}
+.fa 
+{
+  padding: 20px;
+  font-size: 50px;
+  width:50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover 
+{
+	opacity: 0.7;
+}
+
+.fa-facebook 
+{
+  background: white;
+  color: black;
+}
+
+.fa-twitter 
+{
+  background: white;
+  color: black;
+}
+
+.fa-linkedin 
+{
+  background: white;
+  color: black;
+}
+
+.fa-youtube 
+{
+  background: white;
+  color: black;
+}
+
+.fa-instagram 
+{
+  background: white;
+  color: black;
+}
+

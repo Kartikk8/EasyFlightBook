@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Easy Flight Booking and Management</title>
+	<!-- meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- meta tags -->
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+		integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<!-- Document CSS -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- Font family -->
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500;1,600;1,700&display=swap"
+		rel="stylesheet">
+
+</head>
+
+
+<body>
+	<!-- Top Bar Covid Safe -->
+	<div class="top-bar">
+		<div class="container">
+			<div class="col-12 text-center">
+				<p><u>COVID-19 SAFETY ALERT</u></p>
+			</div>
+		</div>
+	</div>
+	<!-- End Top Bar Covid Safe -->
+
+	<!-- Header Banner , Search, Sign up, and Login -->
+	
+			<!-- Logo takes you back home index.html -->
+
+	</section>
+	<!-- End Header Banner , Search, Sign up, and Login -->
+	<div class="topnav">
+		<a class="active">Booking</a>
+		<a href="#seat">Seat Selection</a>
+		<a href="#manage">Manage Booking</a>
+		<a href="#inflight">Inflight Purchases</a>
+		    <div class="col-md-auto"><a href="sign-in.html" ><button type="button" class="login-btn">
+			   Sign In</button></a>
+			</div>
+			<div class="col-md-auto"><a href="sign-up.html"><button type="button" class="signup-btn">
+			   Sign up</button></a>
+			</div>
+	</div>
+	
+	<div class="container">
+			<div class="col-sm"><a href="index.html"><img src="logo.png" alt="Logo" title="Logo" width="300" height="200" align="center"></a></div>
+
+	<section class="sectionBooking">
+
+		<div class="jumbotron">
+			<h2 class="display-6"><b>Booking Selection</b></h2>
+			<br><br />
+
+			<div class="btn-group">
+				<div class="container">
+					<div class="row row-cols-4">
+						<!-- ROW CLASS-->
+
+						<!-- * * * * DEPARTURE COLUMN 1 * * * * -->
+						<div class="col">
+							
+								<div class="input-group-prepend">
+									<label class="input-group-text" for="departureSelect">Departure City</label>
+								</div>
+								<select class="custom-select" id="departureSelect">
+									<option selected>Select</option>
+									<option value="Sydney">Sydney</option>
+									<option value="Singapore">Singapore</option>
+									<option value="Las Vegas">Las Vegas</option>
+									<option value="Delhi">Delhi</option>
+									<option value="Yorkshire">Yorkshire</option>
+								</select>
+					
+						</div>
+						<!-- * * * * END DEPARTURE COLUMN 1 * * * * -->
+
+
+						<!-- * * * * ARRIVAL COLUMN 2 * * * *-->
+						<div class="col">
+
+								<div class="input-group-prepend">
+									<label class="input-group-text" for="arrivalSelect">Arrival City</label>
+								</div>
+								<select class="custom-select" id="arrivalSelect">
+									<option selected>Select</option>
+									<option value="Sydney">Sydney</option>
+									<option value="Singapore">Singapore</option>
+									<option value="Las Vegas">Las Vegas</option>
+									<option value="Delhi">Delhi</option>
+									<option value="Yorkshire">Yorkshire</option>
+								</select>
+
+						</div>
+						<!-- * * * * END ARRIVAL COLUMN 2 * * * * -->
+
+
+
+						<!-- * * * * DATE COLUMN 3 * * * * -->
+						<div class="col">
+								<div class="input-group-prepend">
+									<label class="input-group-text" for="datetimepicker">Date</label>
+								</div>
+								<input type="date" class="form-control" id="datetimepicker">
+								<div class="input-group-addon">
+									<span class="glyphicon glyphicon-th"></span>
+								</div>
+
+						</div>
+						<!-- * * * * END DATE COLUMN 3 * * * * -->
+
+						<!-- * * * * NUMBER OF PEOPLE COLUMN 4 * * * * -->
+						<div class="col">
+
+							<div class="input-group-prepend">
+								<label class="input-group-text" for="selectPeople">Total Passengers</label>
+							</div>
+
+							<select class="custom-select" id="selectPeople">
+								<option selected>No. of Passengers</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+							</select>
+
+						</div>
+						<!-- * * * * END NUMBER OF PEOPLE COLUMN 4 * * * * -->
+					</div> <!-- END ROW CLASS -->
+				</div> <!-- END CLASS CONTAINER -->
+			</div> <!-- END BUTTON GROUP CHOOSE FLIGHT-->
+
+
+			<hr class="my-4">
+			 <a class="btn btn-secondary btn-lg" href="#" role="button" onClick="bookingSubmit()">
+			    Show Flights
+			 </a>
+			
+			<div id='bookingArea'>
+			
+			</div>
+		</div> <!-- JUMBO TRON -->
+		<!-- Will insert booking area from management.js -->
+		
+  </section>
+  
+  <!-- SECTION BOOKING-->
+
+	<!-- socials and stuff -->
+	<section class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="column-md-3">
+					<link rel="stylesheet"
+						href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+					<h3>Contact Us</h3>
+					<h5>partha@uow.edu.au</h5>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+	<!-- Bootstrap Bundle -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+		crossorigin="anonymous"></script>
+	<script src="management.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+<!-- <div class="dropdown">
+               
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Departure City
+  </button>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="departureDropDown">
+    <a class="dropdown-item" href="#" onClick="selectDeparture('Sydney')">Sydney</a>
+    <a class="dropdown-item" href="#" onClick="selectDeparture('Hong Kong')">Hong Kong</a>
+    <a class="dropdown-item" href="#" onClick="selectDeparture('Los Angeles')">Los Angeles</a>
+    <a class="dropdown-item" href="#" onClick="selectDeparture('Beijing')">Beijing</a>
+    <a class="dropdown-item" href="#" onClick="selectDeparture('London')">London</a>
+  </div>
+
+</div> -->
