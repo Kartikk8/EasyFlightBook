@@ -1,15 +1,15 @@
 {
     "User": [
         {
-            "email":"admin@flydreamair.com",
+            "email":"admin@easybooking.com",
             "password":"admin",
             "loginStatus":"false",
             "firstName":"admin"
         },
 
         { 
-            "email":"john@flydreamair.com",
-            "password":"citizen",
+            "email":"john@easybooking.com",
+            "password":"john",
             "firstName":"John",
             "loginStatus":"false",
             "lastName":"Citizen",
@@ -27,29 +27,7 @@
                 {"number":"0002"}
                 
             ]
-        },
-        
-        { 
-            "email":"trump@flydreamair.com",
-            "password":"maga",
-            "firstName":"Donald",
-            "loginStatus":"false",
-            "lastName":"Trump",
-            "flightsBooked": [
-                {"number":"0001",
-                 "food": [
-                    {"steak":"1"},
-                    {"foodTotal":"15.50"}
-                 ],
-                 "drink": [
-                    {"pepsi":"2"},
-                    {"drinkTotal":"7.00"}
-                 ]
-                },
-                {"number":"0002"}
-                
-            ]
         }
-
+        
     ]
 }
